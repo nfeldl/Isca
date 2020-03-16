@@ -109,7 +109,7 @@ Once you've got an environment file that works for your machine saved in `src/ex
 
 ## Site-specific help
 
-There are some site-specific guides to running Isca on your local system located in the directory [exp/site_specific/](https://github.com/ExeClim/Isca/tree/master/exp/site_specific).
+There are some site-specific guides to running Isca on your local system located in the directory [exp/site_specific/](exp/site_specific).
 
 # License
 
