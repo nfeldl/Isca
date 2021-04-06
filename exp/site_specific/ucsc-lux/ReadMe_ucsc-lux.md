@@ -18,7 +18,7 @@ The python module is found in the `src` directory and can be installed using `pi
 ```{bash}
 $ module load python/3.6.7
 $ mkdir venvs # create directory to store virtual environments if it does not already exist
-$ python -m venv venvs/Isca 
+$ python -m venv venvs/Isca # create virtual environment 
 $ source venvs/Isca/bin/activate
 (Isca) $ cd Isca/src/extra/python
 (Isca) $ pip install -r requirements.txt
@@ -78,6 +78,7 @@ module load hdf5_gnu/1.10.6-parallel
 module load netcdf-c_gnu/4.7.3
 module load netcdf-f_gnu/4.5.2
 module load git/2.23.0
+module load slurm/18.08.4
 ```
 
 ## Performing a test run of the model 
