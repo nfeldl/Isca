@@ -107,6 +107,9 @@ To run the model operationally, you will use the slurm workload manager. For exa
 (Isca) $ sbatch --partition=defq isca_job_lux.sh
 ```
 
-For more on using slurm, see the lux documentation at https://lux-ucsc.readthedocs.io/en/latest/using_lux.html#running-jobs
+For more on using slurm, see the [lux documentation](https://lux-ucsc.readthedocs.io/en/latest/using_lux.html#running-jobs)
 
+For more on the spectral dynamical core of the Frierson model, see the [GFDL documentation](https://www.gfdl.noaa.gov/idealized-moist-spectral-atmospheric-model-quickstart/). In particular, note that
+> The spectral model decomposes the horizontal grid into latitude bands with each band assigned to a processor. When 2 processors are used it is decomposed into northern and southern hemispheres. The number of processors that may be used is restricted such that lat_max/npes must be a multiple of 2. For example, for t42 resolution there are 64 latitudes so that the choices for npes are 1,2,4,8,16,32.
 
+ 
